@@ -1,0 +1,8 @@
+package-lock.json
+
+Frontend/node_modules
+Frontend/package-lock.json
+server/node_modules
+server/package-lock.json
+
+Mini Project(EMS)\node_modules
