@@ -7,6 +7,7 @@ import RoleBaseRoutes from './utils/RoleBaseRoutes';
 import AdminSummary from './components/AdminSummary';
 import DepartmentList from './components/department/DepartmentList'
 import AddDepartment from './components/department/AddDepartment';
+import EditDepartment from './components/department/EditDepartment';
 
 
 
