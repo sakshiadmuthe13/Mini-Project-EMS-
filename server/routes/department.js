@@ -5,7 +5,7 @@ import { addDepartment , getDepartments, getDepartment, updateDepartment, delete
 const router = express.Router()
 
 
-router.get('/add', authMiddleware, getDepartments)
+router.get('/', authMiddleware, getDepartments)
 router.post('/add', authMiddleware, addDepartment)
 router.get('/:id', authMiddleware, getDepartment)
 router.put('/:id', authMiddleware, updateDepartment)

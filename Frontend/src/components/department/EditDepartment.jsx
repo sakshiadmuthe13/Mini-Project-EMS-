@@ -67,7 +67,7 @@ const EditDepartment = () => {
 
         <div className="max-w-3xl mx-auto mt-10 bg-white p-8 rounded-md shadow-md w-96">
         <h2 className="text-2xl font-bold mb-6">Edit Department</h2>
-        <form onsubmit={handleSubmit}>
+        <form onSubmit={handleSubmit}>
         
             <div>
               <label 
@@ -82,7 +82,7 @@ const EditDepartment = () => {
                 onChange={handleChange}
                 value={department.dep_name}
                 placeholder="Department  Name "
-                classNAme="mt-1 w-full p-2 border border-gray-300 rounded-md"
+                className="mt-1 w-full p-2 border border-gray-300 rounded-md"
                 required
                 />
                 </div>
